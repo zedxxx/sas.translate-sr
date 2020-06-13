@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-04-11 10:54\n"
+"POT-Creation-Date: 2020-06-13 10:31\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -384,6 +384,12 @@ msgstr "8km"
 msgid "8m"
 msgstr "8m"
 
+#, object-pascal-format
+msgid ""
+"A mark with such coordinates already exists (\"%s\").\n"
+"Do you want to replace it?"
+msgstr ""
+
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
 msgstr "Cancelar"
@@ -459,6 +465,7 @@ msgid "Add new path"
 msgstr "Agregar Ruta"
 
 #. frmMarkEditPath..Caption
+#. frmMarkEditPathCoordinates..Caption
 #. Programmer's name for it: SAS_STR_AddNewPath
 msgid "Add New Path"
 msgstr "Agregar Ruta"
@@ -468,6 +475,8 @@ msgid "Add new placemark"
 msgstr "Agregar Marca"
 
 #. frmMarkEditPoint..Caption
+#. frmMarkEditPointCoordinates..Caption
+#. frmMarkEditPointNew..Caption
 #. Programmer's name for it: SAS_STR_AddNewMark
 msgid "Add New Placemark"
 msgstr "Agregar Marca"
@@ -477,10 +486,18 @@ msgstr "Agregar Marca"
 msgid "Add New Polygon"
 msgstr "Agregar Polígono"
 
+#. frmMarkEditSector..Caption
+#. frmMarkEditSectorCoordinates..Caption
+#, fuzzy
+msgid "Add New Sector"
+msgstr "Agregar nueva Categoría"
+
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroupNew..TBAdd_LineNew..Caption
 #. frmMain..actlstMain..actMarksAddLine..Caption
 msgid "Add Path"
 msgstr "Agrega Ruta"
 
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroupNew..TBAdd_PointNew..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMain..actlstMain..actMarksAddPoint..Caption
 #. frmMain..actlstMain..actGpsMarkPointAdd..Caption
@@ -492,9 +509,15 @@ msgstr "Agregar Marca"
 msgid "Add polygon"
 msgstr "Agregar Polígono"
 
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroupNew..TBAdd_PolyNew..Caption
 #. frmMain..actlstMain..actMarksAddPolygon..Caption
 msgid "Add Polygon"
 msgstr "Agregar Polígono"
+
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroupNew..TBAdd_Sector..Caption
+#, fuzzy
+msgid "Add Sector"
+msgstr "Agregar nueva Categoría"
 
 #. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
 msgid "Add SubCategory"
@@ -652,6 +675,10 @@ msgstr "Elevación"
 #. frmMarkPictureConfig..pnlCaptions..lblAnchor..Caption
 #. frmMarkPictureEditor..grpAnchor..Caption
 msgid "Anchor"
+msgstr ""
+
+#. frmMarkEditSectorCoordinates..lblAngle..Caption
+msgid "Angle:"
 msgstr ""
 
 #. Programmer's name for it: rsAnyAvailableElevationSource
@@ -869,6 +896,11 @@ msgstr "Azimut"
 msgid "Azimuth Circle"
 msgstr "Círculo Azimut"
 
+#. frmMarkEditSectorCoordinates..lblAzimuth..Caption
+#, fuzzy
+msgid "Azimuth:"
+msgstr "Azimut"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..lblBGColor..Caption
 msgid "Background color"
 msgstr "Color de fondo"
@@ -1070,6 +1102,13 @@ msgstr "Calibración para programa Radio Mobile (*.dat)"
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
+#. frmMarkEditPathCoordinates..btnCancel..Caption
+#. frmMarkEditPointCoordinates..btnCancel..Caption
+#. frmMarkEditPointNew..pnlBottomButtons..btnCancel..Hint
+#. frmMarkEditPointNew..pnlBottomButtons..btnCancel..Caption
+#. frmMarkEditSector..pnlBottomButtons..btnCancel..Hint
+#. frmMarkEditSector..pnlBottomButtons..btnCancel..Caption
+#. frmMarkEditSectorCoordinates..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -1227,6 +1266,8 @@ msgstr "cm"
 #. frmMarkEditPath..flwpnlStyle..lblLineColor..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
+#. frmMarkEditSector..pnlFill..flwpnlFill..lblFillColor..Caption
+#. frmMarkEditSector..pnlLine..flwpnlLine..lblLineColor..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
 #. frmSettings..PageControl1..tsGrids..pnlTileBorders..flwpnlTileBorders..Label27..Caption
 #. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
@@ -1333,6 +1374,11 @@ msgstr "Control"
 #. frmCacheManager..PageControl1..tsConverter..Caption
 msgid "Convert Cache Format"
 msgstr "Convertir formato del Caché"
+
+#. frmMarkEditPointCoordinates..lblCoords..Caption
+#, fuzzy
+msgid "Coordiantes (lat, lon):"
+msgstr "Coordenadas"
 
 #. frmFavoriteMapSetEditor..pnlMain..pnlCoords..chkCoords..Caption
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
@@ -1788,6 +1834,9 @@ msgstr "No cierre esta ventana al iniciar"
 msgid "Do not close this window when finish"
 msgstr "No cierre esta ventana al terminar"
 
+msgid "Do you want to continue anyway?"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Don't show for All"
 msgstr ""
@@ -2009,6 +2058,12 @@ msgstr ""
 msgid "Enter parameters"
 msgstr "Ingrese parámetros"
 
+msgid "Enter Points Coordinates first!"
+msgstr ""
+
+msgid "Enter Points Count first!"
+msgstr ""
+
 #. Programmer's name for it: rsEquinox
 msgid "Equinox at"
 msgstr ""
@@ -2087,6 +2142,10 @@ msgstr "Toda parte de mapa debe tener más ancho que %0:d pero existe %1:d"
 #. frMergePolygons..tbTop..tbOperationType..tbtmXOR..Caption
 msgid "Exclusive or (XOR)"
 msgstr "Exclusive or (XOR)"
+
+#, object-pascal-format
+msgid "Expected %d points, but got %d."
+msgstr ""
 
 #. frmMarksExplorer..pnlBottom..pnlButtons..btnExport..Caption
 #. Programmer's name for it: SAS_STR_ExportTiles
@@ -2229,6 +2288,7 @@ msgstr "Cargar desde"
 
 #. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFill..Caption
 #. frmMarkEditPoly..pnlFill..lblFill..Caption
+#. frmMarkEditSector..pnlFill..lblFill..Caption
 msgid "Fill:"
 msgstr "Llenar:"
 
@@ -2287,6 +2347,8 @@ msgstr "Fuente"
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
+#. frmMarkEditPointNew..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
+#. frmMarkEditSector..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
 msgid "Font size"
 msgstr "Tamaño de Fuente"
 
@@ -2596,6 +2658,8 @@ msgstr "Icono parámetros"
 
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
+#. frmMarkEditPointNew..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
+#. frmMarkEditSector..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
 msgid "Icon size"
 msgstr "Tamaño Icono"
 
@@ -2733,6 +2797,10 @@ msgstr "Internet y Caché"
 msgid "Intersection (AND)"
 msgstr "Intersection (AND)"
 
+#, fuzzy, object-pascal-format
+msgid "Invalid coordinates: \"%s\""
+msgstr "Coordenadas: %s"
+
 #. Programmer's name for it: rsInvalidDelete
 #, object-pascal-format
 msgid ""
@@ -2740,6 +2808,16 @@ msgid ""
 msgstr ""
 "¡Borrado inválido: El objecto tiene todavía  interfase activa ref's! (Ref "
 "count: %d)"
+
+#. Programmer's name for it: rsInvalidLatFmt
+#, object-pascal-format
+msgid "Invalid Latitude \"%s\""
+msgstr ""
+
+#. Programmer's name for it: rsInvalidLonFmt
+#, object-pascal-format
+msgid "Invalid Longitude \"%s\""
+msgstr ""
 
 #, object-pascal-format
 msgid "Invalid Volume Size value: %s"
@@ -2848,6 +2926,7 @@ msgstr ""
 "Latitud de esquina superior izquierda debe ser menor que \n"
 "latitud de esquina superior izquierda"
 
+#. frmMarkEditPointNew..pnlLonLat..grdpnlLonLat..lblLat..Caption
 #. frLonLat..grdpnlLonLat..lblLat..Caption
 msgid "Latitude:"
 msgstr "Latitud:"
@@ -2885,6 +2964,11 @@ msgstr "Layers:"
 msgid "Length"
 msgstr "Longitud"
 
+#. frmMarkEditSectorCoordinates..lblLen..Caption
+#, fuzzy
+msgid "Length, meters:"
+msgstr "Longitud: %s"
+
 #, object-pascal-format
 msgid "Length: %s"
 msgstr "Longitud: %s"
@@ -2899,6 +2983,7 @@ msgstr ""
 
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLine..Caption
 #. frmMarkEditPoly..pnlLine..lblLine..Caption
+#. frmMarkEditSector..pnlLine..lblLine..Caption
 msgid "Line:"
 msgstr "Linea:"
 
@@ -2956,6 +3041,7 @@ msgstr ""
 "Longitud de esquina inferior derecha debe ser menor de \n"
 "longitud de esquina inferior derecha"
 
+#. frmMarkEditPointNew..pnlLonLat..grdpnlLonLat..lblLon..Caption
 #. frLonLat..grdpnlLonLat..lblLon..Caption
 msgid "Longitude:"
 msgstr "Longitud:"
@@ -3349,6 +3435,8 @@ msgstr "Nombre (en la lista)"
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frmMarkEditPoly..pnlName..lblName..Caption
+#. frmMarkEditPointNew..pnlTop..pnlTopMain..pnlName..lblName..Caption
+#. frmMarkEditSector..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..lblName..Caption
 msgid "Name:"
 msgstr "Nombre:"
@@ -3406,6 +3494,12 @@ msgstr "Formato de números"
 #, fuzzy
 msgid "New Moon"
 msgstr "Agregar Polígono"
+
+#. frmMarkEditPathCoordinates..btnNext..Caption
+#. frmMarkEditPointCoordinates..btnNext..Caption
+#. frmMarkEditSectorCoordinates..btnNext..Caption
+msgid "Next"
+msgstr ""
 
 #. frmMain..actlstMain..actViewSelectNextMapWithTile..Caption
 msgid "Next map with tile"
@@ -3635,6 +3729,10 @@ msgstr "Opacidad"
 #. frmMarkEditPoint..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillTransp..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineTransp..Caption
+#. frmMarkEditPointNew..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
+#. frmMarkEditSector..pnlFill..flwpnlFill..lblFillTransp..Caption
+#. frmMarkEditSector..pnlLine..flwpnlLine..lblLineTransp..Caption
+#. frmMarkEditSector..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
 #, no-object-pascal-format
 msgid "Opacity %"
 msgstr "Opacidad %"
@@ -3764,6 +3862,11 @@ msgstr "Parámetros"
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
 msgstr "Submenu padre"
+
+#. Programmer's name for it: rsParsingCoordinatesError
+#, fuzzy
+msgid "Parsing coordinates error!"
+msgstr "Coordenadas del mosaico"
 
 #, fuzzy, object-pascal-format
 msgid "Parts count: %d"
@@ -3928,6 +4031,12 @@ msgstr "Posiciones"
 msgid "PlaceMarks"
 msgstr "Posiciones"
 
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem4..Caption
+#. frmMain..TBDock..TBMarksToolbarNew..Caption
+#, fuzzy
+msgid "Placemarks New"
+msgstr "Posiciones"
+
 #. frmMain..MainPopupMenu..NMarkPlay..Caption
 msgid "Play"
 msgstr "Tocar"
@@ -4014,13 +4123,34 @@ msgstr "PNG (Color Verdadero+ Alpha)"
 msgid "PNG (TrueColor)"
 msgstr "PNG (Color Verdadero)"
 
+#. frmMarkEditSectorCoordinates..lblCoords..Caption
+msgid "Point Coordiantes (lat, lon):"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
 msgstr "Tamaño"
 
+#. frmMarkEditPathCoordinates..lblCoordinates..Caption
+msgid "Points coordinates (lat1, lon1; lat2, lon2; etc.):"
+msgstr ""
+
+#. frmMarkEditPathCoordinates..lblCount..Caption
+#, fuzzy
+msgid "Points count:"
+msgstr "Cuenta de Puntos: %d"
+
 #, object-pascal-format
 msgid "Points count: %d"
 msgstr "Cuenta de Puntos: %d"
+
+#, object-pascal-format
+msgid "Points Count: At least %d points are required!"
+msgstr ""
+
+#, object-pascal-format
+msgid "Points Count: Invalid value \"%s\""
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_NewPoly
 #, no-object-pascal-format
@@ -4229,6 +4359,8 @@ msgstr "¡RAW: Falla en carga de línea!"
 #. frmMarkEditPoint..pnlBottomButtons..lblReadOnly..Caption
 #. frmMarkEditPoly..pnlBottomButtons..lblReadOnly..Caption
 #. frmMarksExplorer..pnlBottom..pnlButtons..lblReadOnly..Caption
+#. frmMarkEditPointNew..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarkEditSector..pnlBottomButtons..lblReadOnly..Caption
 msgid "Read only mode"
 msgstr "Mode Read only"
 
@@ -4554,6 +4686,10 @@ msgstr "Resultados de Búsqueda"
 msgid "searching"
 msgstr "buscando"
 
+#. Setup Name and Desc (same for Point and Poly)
+msgid "Sector"
+msgstr ""
+
 #. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
 msgid "Select by Placemark"
 msgstr "Selección por Marca"
@@ -4669,6 +4805,8 @@ msgstr "Hacer visibles todas las Posiciones de todas las Categorías"
 #. frmMarkEditPath..pnlBottomButtons..btnSetAsTemplate..Hint
 #. frmMarkEditPoint..pnlBottomButtons..btnSetAsTemplate..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditPointNew..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditSector..pnlBottomButtons..btnSetAsTemplate..Hint
 msgid "Set as default"
 msgstr "Establecer por defecto"
 
@@ -4700,6 +4838,8 @@ msgstr "Opciones"
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
+#. frmMarkEditPointNew..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
+#. frmMarkEditSector..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
 msgid "Shadow color"
 msgstr "Color de sombra"
 
@@ -4800,6 +4940,8 @@ msgstr "Mostrar Metros por Pixel"
 #. frmMarkEditPath..chkVisible..Caption
 #. frmMarkEditPoint..chkVisible..Caption
 #. frmMarkEditPoly..chkVisible..Caption
+#. frmMarkEditPointNew..chkVisible..Caption
+#. frmMarkEditSector..chkVisible..Caption
 msgid "Show on map"
 msgstr "Mostrar en Mapa"
 
@@ -5178,6 +5320,8 @@ msgstr "Parte Base de URL requerida:"
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
+#. frmMarkEditPointNew..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
+#. frmMarkEditSector..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
 msgid "Text color"
 msgstr "Color de texto"
 
@@ -5227,6 +5371,12 @@ msgstr "El tamaño del mosaico es igual al existente, ignorado."
 #. Programmer's name for it: SAS_MSG_TneBeCreateTime
 msgid "The tne is newer than the entered age, skipping."
 msgstr "El tne es más nuevo que el periodo entrado, ignorado."
+
+#, object-pascal-format
+msgid ""
+"There are %d marks with such coordinates.\n"
+"Do you want to replace them all?"
+msgstr ""
 
 #. Programmer's name for it: rsNoAvailableObjects
 msgid "There are no available objects in the pool!"
@@ -5640,6 +5790,7 @@ msgstr ""
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineWidth..Caption
+#. frmMarkEditSector..pnlLine..flwpnlLine..lblLineWidth..Caption
 msgid "Width"
 msgstr "Ancho"
 

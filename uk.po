@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SAS.Planet\n"
-"POT-Creation-Date: 2020-04-11 10:54\n"
+"POT-Creation-Date: 2020-06-13 10:31\n"
 "PO-Revision-Date: 2018-10-21 22:01+0300\n"
 "Last-Translator: zed <starmen@tut.by>\n"
 "Language-Team: \n"
@@ -375,6 +375,12 @@ msgstr "8 км"
 msgid "8m"
 msgstr "8 м"
 
+#, object-pascal-format
+msgid ""
+"A mark with such coordinates already exists (\"%s\").\n"
+"Do you want to replace it?"
+msgstr ""
+
 #. frmMergePolygonsProgress..btnAbort..Caption
 msgid "Abort"
 msgstr "Перервати"
@@ -448,6 +454,7 @@ msgid "Add new path"
 msgstr "Додати новий шлях"
 
 #. frmMarkEditPath..Caption
+#. frmMarkEditPathCoordinates..Caption
 #. Programmer's name for it: SAS_STR_AddNewPath
 msgid "Add New Path"
 msgstr "Додати новий шлях"
@@ -457,6 +464,8 @@ msgid "Add new placemark"
 msgstr "Додати нову позначку"
 
 #. frmMarkEditPoint..Caption
+#. frmMarkEditPointCoordinates..Caption
+#. frmMarkEditPointNew..Caption
 #. Programmer's name for it: SAS_STR_AddNewMark
 msgid "Add New Placemark"
 msgstr "Додати нову позначку"
@@ -466,10 +475,18 @@ msgstr "Додати нову позначку"
 msgid "Add New Polygon"
 msgstr "Додати новий полігон"
 
+#. frmMarkEditSector..Caption
+#. frmMarkEditSectorCoordinates..Caption
+#, fuzzy
+msgid "Add New Sector"
+msgstr "Додати нову категорію"
+
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroupNew..TBAdd_LineNew..Caption
 #. frmMain..actlstMain..actMarksAddLine..Caption
 msgid "Add Path"
 msgstr "Додати шлях"
 
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroupNew..TBAdd_PointNew..Caption
 #. frmMain..MainPopupMenu..NaddPoint..Caption
 #. frmMain..actlstMain..actMarksAddPoint..Caption
 #. frmMain..actlstMain..actGpsMarkPointAdd..Caption
@@ -481,9 +498,15 @@ msgstr "Додати позначку"
 msgid "Add polygon"
 msgstr "Додати полігон"
 
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroupNew..TBAdd_PolyNew..Caption
 #. frmMain..actlstMain..actMarksAddPolygon..Caption
 msgid "Add Polygon"
 msgstr "Додати полігон"
+
+#. frmMain..TBDock..TBXMainMenu..NMarks..NMarksGroupNew..TBAdd_Sector..Caption
+#, fuzzy
+msgid "Add Sector"
+msgstr "Додати нову категорію"
 
 #. frmMarksExplorer..tbpmnCategories..tbitmAddCategory..Caption
 msgid "Add SubCategory"
@@ -642,6 +665,10 @@ msgstr "Висота"
 #. frmMarkPictureEditor..grpAnchor..Caption
 msgid "Anchor"
 msgstr "Привязка"
+
+#. frmMarkEditSectorCoordinates..lblAngle..Caption
+msgid "Angle:"
+msgstr ""
 
 #. Programmer's name for it: rsAnyAvailableElevationSource
 msgid "Any Available Source"
@@ -856,6 +883,11 @@ msgstr "Азимут"
 msgid "Azimuth Circle"
 msgstr "Азимутальне кільце "
 
+#. frmMarkEditSectorCoordinates..lblAzimuth..Caption
+#, fuzzy
+msgid "Azimuth:"
+msgstr "Азимут"
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlBgColor..lblBGColor..Caption
 msgid "Background color"
 msgstr "Колір тла"
@@ -1057,6 +1089,13 @@ msgstr "Калібрування для програми Radio Mobile (*.dat)"
 #. frmMarksMultiEdit..pnlBottom..btnCancel..Caption
 #. frmMarkSystemConfigEdit..btnCancel..Caption
 #. frmPolygonForOperationConfig..pnlBottom..btnCancel..Caption
+#. frmMarkEditPathCoordinates..btnCancel..Caption
+#. frmMarkEditPointCoordinates..btnCancel..Caption
+#. frmMarkEditPointNew..pnlBottomButtons..btnCancel..Hint
+#. frmMarkEditPointNew..pnlBottomButtons..btnCancel..Caption
+#. frmMarkEditSector..pnlBottomButtons..btnCancel..Hint
+#. frmMarkEditSector..pnlBottomButtons..btnCancel..Caption
+#. frmMarkEditSectorCoordinates..btnCancel..Caption
 #. frmRegionProcess..pnlBottomButtons..Button3..Caption
 #. frmGoTo..pnlBottomButtons..btnCancel..Caption
 #. frmLonLatRectEdit..pnlBottomButtons..btnCancel..Caption
@@ -1211,6 +1250,8 @@ msgstr "см"
 #. frmMarkEditPath..flwpnlStyle..lblLineColor..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillColor..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineColor..Caption
+#. frmMarkEditSector..pnlFill..flwpnlFill..lblFillColor..Caption
+#. frmMarkEditSector..pnlLine..flwpnlLine..lblLineColor..Caption
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUIRight..pnlFillMap..flwpnlFillMap..Label26..Caption
 #. frmSettings..PageControl1..tsGrids..pnlTileBorders..flwpnlTileBorders..Label27..Caption
 #. frmSettings..PageControl1..tsGrids..pnlGenshtabBorders..flwpnlGenshtabBorders..LabelGsh2..Caption
@@ -1314,6 +1355,11 @@ msgstr "Керування"
 #. frmCacheManager..PageControl1..tsConverter..Caption
 msgid "Convert Cache Format"
 msgstr "Конвертувати формат кешу"
+
+#. frmMarkEditPointCoordinates..lblCoords..Caption
+#, fuzzy
+msgid "Coordiantes (lat, lon):"
+msgstr "Інф. про координати"
 
 #. frmFavoriteMapSetEditor..pnlMain..pnlCoords..chkCoords..Caption
 #. frmGoTo..pgcSearchType..tsCoordinates..Caption
@@ -1766,6 +1812,9 @@ msgstr "Не закривати вікно після старту"
 msgid "Do not close this window when finish"
 msgstr "Не закривати вікно після закінчення"
 
+msgid "Do you want to continue anyway?"
+msgstr ""
+
 #. frmSettings..PageControl1..tsView..grdpnlUI..pnlUILeft..pnlCoordSysInfoType..cbbCoordSysInfoType....Items.Strings
 msgid "Don't show for All"
 msgstr "Не показувати"
@@ -1983,6 +2032,12 @@ msgstr ""
 msgid "Enter parameters"
 msgstr "Введення параметрів"
 
+msgid "Enter Points Coordinates first!"
+msgstr ""
+
+msgid "Enter Points Count first!"
+msgstr ""
+
 #. Programmer's name for it: rsEquinox
 msgid "Equinox at"
 msgstr "Рівнодення в"
@@ -2061,6 +2116,10 @@ msgstr "Кожна частина карты повинна мати ширин�
 #. frMergePolygons..tbTop..tbOperationType..tbtmXOR..Caption
 msgid "Exclusive or (XOR)"
 msgstr "Виключаюче АБО (XOR)"
+
+#, object-pascal-format
+msgid "Expected %d points, but got %d."
+msgstr ""
 
 #. frmMarksExplorer..pnlBottom..pnlButtons..btnExport..Caption
 #. Programmer's name for it: SAS_STR_ExportTiles
@@ -2203,6 +2262,7 @@ msgstr "Дати: з"
 
 #. frMarksGeneralOptions..grpPoly..flwpnlPolygonFill..lblPolyFill..Caption
 #. frmMarkEditPoly..pnlFill..lblFill..Caption
+#. frmMarkEditSector..pnlFill..lblFill..Caption
 msgid "Fill:"
 msgstr "Заповнення:"
 
@@ -2261,6 +2321,8 @@ msgstr "Шрифт"
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointFontSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
+#. frmMarkEditPointNew..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
+#. frmMarkEditSector..grdpnlStyleRows..grdpnlLine1..flwpnlFontSize..lblFontSize..Caption
 msgid "Font size"
 msgstr "Розмір шрифту"
 
@@ -2567,6 +2629,8 @@ msgstr "Параметри іконки"
 
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointIconSize..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
+#. frmMarkEditPointNew..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
+#. frmMarkEditSector..grdpnlStyleRows..grdpnlLine2..flwpnlIconSize..lblIconSize..Caption
 msgid "Icon size"
 msgstr "Розмір іконки"
 
@@ -2702,10 +2766,24 @@ msgstr "Інтернет і кеш"
 msgid "Intersection (AND)"
 msgstr "Перетин (AND)"
 
+#, fuzzy, object-pascal-format
+msgid "Invalid coordinates: \"%s\""
+msgstr "Координати: %s"
+
 #. Programmer's name for it: rsInvalidDelete
 #, object-pascal-format
 msgid ""
 "Invalid Delete: Object is still have active interface ref's! (Ref count: %d)"
+msgstr ""
+
+#. Programmer's name for it: rsInvalidLatFmt
+#, object-pascal-format
+msgid "Invalid Latitude \"%s\""
+msgstr ""
+
+#. Programmer's name for it: rsInvalidLonFmt
+#, object-pascal-format
+msgid "Invalid Longitude \"%s\""
 msgstr ""
 
 #, object-pascal-format
@@ -2813,6 +2891,7 @@ msgid ""
 msgstr ""
 "Широта у лівому верхньому кутку має бути менше широти у правому нижньому!"
 
+#. frmMarkEditPointNew..pnlLonLat..grdpnlLonLat..lblLat..Caption
 #. frLonLat..grdpnlLonLat..lblLat..Caption
 msgid "Latitude:"
 msgstr "Широта:"
@@ -2850,6 +2929,11 @@ msgstr "Шари:"
 msgid "Length"
 msgstr "Довжина"
 
+#. frmMarkEditSectorCoordinates..lblLen..Caption
+#, fuzzy
+msgid "Length, meters:"
+msgstr "Довжина: %s"
+
 #, object-pascal-format
 msgid "Length: %s"
 msgstr "Довжина: %s"
@@ -2864,6 +2948,7 @@ msgstr "Файли ліцензій (*.mpl)|*.mpl"
 
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLine..Caption
 #. frmMarkEditPoly..pnlLine..lblLine..Caption
+#. frmMarkEditSector..pnlLine..lblLine..Caption
 msgid "Line:"
 msgstr "Лінія:"
 
@@ -2920,6 +3005,7 @@ msgid ""
 msgstr ""
 "Довгота у лівому верхньому кутку має бути менше довготи у правому нижньому!"
 
+#. frmMarkEditPointNew..pnlLonLat..grdpnlLonLat..lblLon..Caption
 #. frLonLat..grdpnlLonLat..lblLon..Caption
 msgid "Longitude:"
 msgstr "Довгота:"
@@ -3311,6 +3397,8 @@ msgstr "Ім'я (у списку)"
 #. frmMarkEditPath..pnlName..lblName..Caption
 #. frmMarkEditPoint..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frmMarkEditPoly..pnlName..lblName..Caption
+#. frmMarkEditPointNew..pnlTop..pnlTopMain..pnlName..lblName..Caption
+#. frmMarkEditSector..pnlTop..pnlTopMain..pnlName..lblName..Caption
 #. frExportMBTiles..pnlCenter..pnlMain..lblName..Caption
 msgid "Name:"
 msgstr "Назва:"
@@ -3367,6 +3455,12 @@ msgstr "Новий формат"
 #, fuzzy
 msgid "New Moon"
 msgstr "Додати новий полігон"
+
+#. frmMarkEditPathCoordinates..btnNext..Caption
+#. frmMarkEditPointCoordinates..btnNext..Caption
+#. frmMarkEditSectorCoordinates..btnNext..Caption
+msgid "Next"
+msgstr ""
 
 #. frmMain..actlstMain..actViewSelectNextMapWithTile..Caption
 msgid "Next map with tile"
@@ -3591,6 +3685,10 @@ msgstr "Прозорість"
 #. frmMarkEditPoint..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
 #. frmMarkEditPoly..pnlFill..flwpnlFill..lblFillTransp..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineTransp..Caption
+#. frmMarkEditPointNew..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
+#. frmMarkEditSector..pnlFill..flwpnlFill..lblFillTransp..Caption
+#. frmMarkEditSector..pnlLine..flwpnlLine..lblLineTransp..Caption
+#. frmMarkEditSector..grdpnlStyleRows..flwpnlTrahsparent..lblTransp..Caption
 #, no-object-pascal-format
 msgid "Opacity %"
 msgstr "Прозорість %"
@@ -3720,6 +3818,11 @@ msgstr "Параметр"
 #. frmMapTypeEdit..PageControl1..tsOthers..pnlParentItem..lblSubMenu..Caption
 msgid "Parent submenu"
 msgstr "Батьківський пункт меню"
+
+#. Programmer's name for it: rsParsingCoordinatesError
+#, fuzzy
+msgid "Parsing coordinates error!"
+msgstr "Показувати координати тайла"
 
 #, object-pascal-format
 msgid "Parts count: %d"
@@ -3881,6 +3984,12 @@ msgstr " Позначки "
 msgid "PlaceMarks"
 msgstr " Позначки"
 
+#. frmMain..TBDock..TBXMainMenu..NView..NPanels..TBXVisibilityToggleItem4..Caption
+#. frmMain..TBDock..TBMarksToolbarNew..Caption
+#, fuzzy
+msgid "Placemarks New"
+msgstr " Позначки "
+
 #. frmMain..MainPopupMenu..NMarkPlay..Caption
 msgid "Play"
 msgstr "Програти"
@@ -3965,13 +4074,34 @@ msgstr "PNG (повнокольоровий з прозорістю)"
 msgid "PNG (TrueColor)"
 msgstr "PNG (повнокольоровий)"
 
+#. frmMarkEditSectorCoordinates..lblCoords..Caption
+msgid "Point Coordiantes (lat, lon):"
+msgstr ""
+
 #. frmSettings..PageControl1..tsGPSMarker..flwpnlGPSMarker..lblGPSMarkerSize..Caption
 msgid "Pointer size:"
 msgstr "Розмір вказівника напрямку:"
 
+#. frmMarkEditPathCoordinates..lblCoordinates..Caption
+msgid "Points coordinates (lat1, lon1; lat2, lon2; etc.):"
+msgstr ""
+
+#. frmMarkEditPathCoordinates..lblCount..Caption
+#, fuzzy
+msgid "Points count:"
+msgstr "Кількість точок: %d"
+
 #, object-pascal-format
 msgid "Points count: %d"
 msgstr "Кількість точок: %d"
+
+#, object-pascal-format
+msgid "Points Count: At least %d points are required!"
+msgstr ""
+
+#, object-pascal-format
+msgid "Points Count: Invalid value \"%s\""
+msgstr ""
 
 #. Programmer's name for it: SAS_STR_NewPoly
 #, no-object-pascal-format
@@ -4180,6 +4310,8 @@ msgstr "BMP: Помилка заповнення!"
 #. frmMarkEditPoint..pnlBottomButtons..lblReadOnly..Caption
 #. frmMarkEditPoly..pnlBottomButtons..lblReadOnly..Caption
 #. frmMarksExplorer..pnlBottom..pnlButtons..lblReadOnly..Caption
+#. frmMarkEditPointNew..pnlBottomButtons..lblReadOnly..Caption
+#. frmMarkEditSector..pnlBottomButtons..lblReadOnly..Caption
 msgid "Read only mode"
 msgstr "Тільки читання"
 
@@ -4503,6 +4635,10 @@ msgstr "Результати пошуку"
 msgid "searching"
 msgstr "Пошук"
 
+#. Setup Name and Desc (same for Point and Poly)
+msgid "Sector"
+msgstr ""
+
 #. frmMain..MainPopupMenu..tbpmiVersions..tbitmSelectVersionByMark..Caption
 msgid "Select by Placemark"
 msgstr "Обрати за позначкою"
@@ -4618,6 +4754,8 @@ msgstr "Зробити видимими усі позначки в усіх ка
 #. frmMarkEditPath..pnlBottomButtons..btnSetAsTemplate..Hint
 #. frmMarkEditPoint..pnlBottomButtons..btnSetAsTemplate..Hint
 #. frmMarkEditPoly..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditPointNew..pnlBottomButtons..btnSetAsTemplate..Hint
+#. frmMarkEditSector..pnlBottomButtons..btnSetAsTemplate..Hint
 msgid "Set as default"
 msgstr "Використовувати стандартні налаштування"
 
@@ -4649,6 +4787,8 @@ msgstr "Параметри"
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointShadowParams..lblPointShadowColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
+#. frmMarkEditPointNew..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
+#. frmMarkEditSector..grdpnlStyleRows..grdpnlLine2..flwpnlShadowColor..lblShadowColor..Caption
 msgid "Shadow color"
 msgstr "Колір тіні"
 
@@ -4748,6 +4888,8 @@ msgstr "Показувати розрізнення"
 #. frmMarkEditPath..chkVisible..Caption
 #. frmMarkEditPoint..chkVisible..Caption
 #. frmMarkEditPoly..chkVisible..Caption
+#. frmMarkEditPointNew..chkVisible..Caption
+#. frmMarkEditSector..chkVisible..Caption
 msgid "Show on map"
 msgstr "Показувати це місце на карті"
 
@@ -5123,6 +5265,8 @@ msgstr "Базова частина URL:"
 #. frJpegImportOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frMarksGeneralOptions..grpPoint..pnlPointParams..flwpnlPointText..lblPointTextColor..Caption
 #. frmMarkEditPoint..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
+#. frmMarkEditPointNew..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
+#. frmMarkEditSector..grdpnlStyleRows..grdpnlLine1..flwpnlTextColor..lblTextColor..Caption
 msgid "Text color"
 msgstr "Колір тексту"
 
@@ -5175,6 +5319,12 @@ msgstr "Розмір цього тайлу дорівнює існуючому, 
 msgid "The tne is newer than the entered age, skipping."
 msgstr ""
 "Цей tne створено пізніше зазначеного терміну, пропускаємо завантаження."
+
+#, object-pascal-format
+msgid ""
+"There are %d marks with such coordinates.\n"
+"Do you want to replace them all?"
+msgstr ""
 
 #. Programmer's name for it: rsNoAvailableObjects
 msgid "There are no available objects in the pool!"
@@ -5581,6 +5731,7 @@ msgstr ""
 #. frMarksGeneralOptions..grpPoly..flwpnlPlygonLine..lblPolyLineWidth..Caption
 #. frmMarkEditPath..flwpnlStyle..lblWidth..Caption
 #. frmMarkEditPoly..pnlLine..flwpnlLine..lblLineWidth..Caption
+#. frmMarkEditSector..pnlLine..flwpnlLine..lblLineWidth..Caption
 msgid "Width"
 msgstr "Ширина"
 
