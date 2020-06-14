@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-06-13 10:31\n"
+"POT-Creation-Date: 2020-06-14 20:34\n"
 "PO-Revision-Date: 2020-03-04 07:50+0100\n"
 "Last-Translator: bartho <ch3ch2o6@hotmail.fr>\n"
 "Language-Team: \n"
@@ -705,6 +705,10 @@ msgstr "Paramètres d'archivage"
 msgid "Are you sure you want to delete %0:d placemarks?"
 msgstr "Etes-vous certain de vouloir effacer %0:d balises ?"
 
+#, fuzzy
+msgid "Are you sure you want to delete ALL plasemarks from DB?"
+msgstr "Etes-vous certain de vouloir effacer %0:d balises ?"
+
 #. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
 #, no-object-pascal-format
 msgid "Are you sure you want to delete category with name \"%0:s\"?"
@@ -747,6 +751,11 @@ msgstr "Etes-vous certain de vouloir effacer la balise avec le nom \"%0:s\" ?"
 msgid "Are you sure you want to delete polygon with name \"%0:s\"?"
 msgstr ""
 "Etes-vous certain de vouloir effacer le polygone avec le nom \"%0:s\" ?"
+
+#, fuzzy, no-object-pascal-format
+msgid "Are you sure you want to delete sector with name \"%0:s\"?"
+msgstr ""
+"Etes-vous certain de vouloir effacer la catégorie avec le nom \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTileOneTileAsk
 #, no-object-pascal-format
@@ -1587,6 +1596,10 @@ msgstr "Définir le raccourci clavier"
 msgid "Delete"
 msgstr "Supprimer"
 
+#. frmMain..MainPopupMenu..NAllMarksDel..Caption
+msgid "Delete ALL marks from DB"
+msgstr ""
+
 #. frDeleteTiles..rgTarget....Items.Strings
 msgid "Delete both"
 msgstr "Supprimer tout"
@@ -1630,6 +1643,11 @@ msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr ""
 "Supprimer la dalle (sélectionnée par clic droit) de la Carte affichée, à "
 "partir du cache (Suppr+Clic)"
+
+#. frmMain..MainPopupMenu..NSectorDel..Caption
+#, fuzzy
+msgid "Delete Sector"
+msgstr "Supprimer la catégorie"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
 msgid "Delete selected category"
@@ -4673,6 +4691,9 @@ msgstr ""
 "La catégorie sélectionnée \"%0:s\" contient %d sous-catégorie(s). Faut-il "
 "tout supprimer ?"
 
+msgid "Selected placemark is not a sector part!"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_ImageIsTooBig
 #, object-pascal-format
 msgid ""
@@ -5308,6 +5329,12 @@ msgstr "La dalle est créée après la date limite : annuler."
 msgid ""
 "There are %d marks with such coordinates.\n"
 "Do you want to replace them all?"
+msgstr ""
+
+#, object-pascal-format
+msgid ""
+"There are %d parts with same sector identity!\n"
+"Are you sure you want to delete all this parts?"
 msgstr ""
 
 #. Programmer's name for it: rsNoAvailableObjects

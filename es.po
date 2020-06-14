@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-06-13 10:31\n"
+"POT-Creation-Date: 2020-06-14 20:34\n"
 "PO-Revision-Date: 2016-06-09 10:40-0300\n"
 "Last-Translator: Yago <dmurias@hotmail.com>\n"
 "Language-Team: \n"
@@ -726,6 +726,10 @@ msgstr "Opciones de Layers"
 msgid "Are you sure you want to delete %0:d placemarks?"
 msgstr "¿Está seguro de querer borrar %0:d de marcas?"
 
+#, fuzzy
+msgid "Are you sure you want to delete ALL plasemarks from DB?"
+msgstr "¿Está seguro de querer borrar %0:d de marcas?"
+
 #. Programmer's name for it: SAS_MSG_DeleteMarkCategoryAsk
 #, no-object-pascal-format
 msgid "Are you sure you want to delete category with name \"%0:s\"?"
@@ -763,6 +767,10 @@ msgstr "¿Está seguro de querer borrar el punto de nombre \"%0:s\"?"
 #, no-object-pascal-format
 msgid "Are you sure you want to delete polygon with name \"%0:s\"?"
 msgstr "¿Está seguro de querer borrar el polígono \"%0:s\"?"
+
+#, fuzzy, no-object-pascal-format
+msgid "Are you sure you want to delete sector with name \"%0:s\"?"
+msgstr "¿Está seguro de querer borrar las categorías con nombre \"%0:s\"?"
 
 #. Programmer's name for it: SAS_MSG_DeleteTileOneTileAsk
 #, no-object-pascal-format
@@ -1614,6 +1622,10 @@ msgstr "Definir hotkey"
 msgid "Delete"
 msgstr "Borrar"
 
+#. frmMain..MainPopupMenu..NAllMarksDel..Caption
+msgid "Delete ALL marks from DB"
+msgstr ""
+
 #. frDeleteTiles..rgTarget....Items.Strings
 msgid "Delete both"
 msgstr "Borrar ambos"
@@ -1653,6 +1665,11 @@ msgstr "Borrar Punto"
 #. frmMain..MainPopupMenu..NDel..Caption
 msgid "Delete Primary Map Tile from Cache (Del+MLeft)"
 msgstr "Borrar Mosaico del Mapa del Caché (Del+MLeft)"
+
+#. frmMain..MainPopupMenu..NSectorDel..Caption
+#, fuzzy
+msgid "Delete Sector"
+msgstr "Borrar"
 
 #. frmMarksExplorer..pnlMainWithButtons..pnlMain..grpCategory..TBXDockCategory..TBXToolbar2..BtnDelKat..Hint
 #, fuzzy
@@ -4727,6 +4744,9 @@ msgstr ""
 "Categoría Seleccionada \"%0:s\" contiene %d sub categorías. ¿Está seguro de "
 "querer borrarlas todas?"
 
+msgid "Selected placemark is not a sector part!"
+msgstr ""
+
 #. Programmer's name for it: SAS_ERR_ImageIsTooBig
 #, object-pascal-format
 msgid ""
@@ -5376,6 +5396,12 @@ msgstr "El tne es más nuevo que el periodo entrado, ignorado."
 msgid ""
 "There are %d marks with such coordinates.\n"
 "Do you want to replace them all?"
+msgstr ""
+
+#, object-pascal-format
+msgid ""
+"There are %d parts with same sector identity!\n"
+"Are you sure you want to delete all this parts?"
 msgstr ""
 
 #. Programmer's name for it: rsNoAvailableObjects
